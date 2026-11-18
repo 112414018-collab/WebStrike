@@ -1,0 +1,11 @@
+{
+  "name": "WebStrike",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "WebStrike website",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "python -m pip install -r requirements.txt"
+}
